@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Contacts from './Contacts'
+import Bio from "./Bio";
+import PicCard from "./PicCard";
+import Social from "./Social";
 
-function App() {
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="Appcont">
+      <div id="App">
+        <section id="picpart">
+          <PicCard />
+          <Social />
+        </section>
+        <section id="infopart">
+          <Contacts />
+          <Bio />
+        </section>
+      </div>
     </div>
   );
 }
 
-export default App;
