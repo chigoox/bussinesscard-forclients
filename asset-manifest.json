@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bussinesscard-forclients/static/css/main.bc4ff346.css",
+    "main.js": "/bussinesscard-forclients/static/js/main.fa45ece6.js",
+    "index.html": "/bussinesscard-forclients/index.html",
+    "main.bc4ff346.css.map": "/bussinesscard-forclients/static/css/main.bc4ff346.css.map",
+    "main.fa45ece6.js.map": "/bussinesscard-forclients/static/js/main.fa45ece6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc4ff346.css",
+    "static/js/main.fa45ece6.js"
+  ]
+}
